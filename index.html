@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="match">
+        <div class="score">
+          <p class="number" id="ai">0</p>
+          <p class="player">AI</p>
+        </div>
+        <div class="score">
+          <p class="number" id="you">0</p>
+          <p class="player">You</p>
+        </div>
+      </div>
+      <img id="roboArm" src="roboarmRock.png" alt="" />
+      <img id="humanArm" class="humanHand" src="humanArm.png" alt="" />
+      <div class="buttons">
+        <button id="rock"><img src="buttonRock.png" alt="" /></button>
+        <button id="paper"><img src="buttonPaper.png" alt="" /></button>
+        <button id="scissors"><img src="buttonScissors.png" alt="" /></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

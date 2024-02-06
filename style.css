@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Seymour One", sans-serif;
+}
+
+body {
+  background: rgb(157, 202, 255);
+}
+.container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.match {
+  display: flex;
+  margin-top: 97px;
+  gap: 256px;
+}
+.number {
+  color: rgb(255, 255, 255);
+  font-family: Seymour One;
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 201px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.player {
+  color: rgb(255, 255, 255);
+  font-family: Seymour One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -10%;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  margin-bottom: 62px;
+  gap: 57px;
+}
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+#roboArm {
+    position: absolute;
+    left: -210px;
+    bottom: 0;
+    transform: rotate(50deg);
+    margin: 0;
+    scale: 0.5;
+
+}
+
+#humanArm {
+    position: absolute;
+    width: 722px;
+    height: 1643px;
+    right: 0;
+    bottom: -0 transform: rotate(-20deg);
+    bottom: 0;
+    scale: 0.5;
+    transform: scale(-1, 1) rotate(50deg);
+}
+.humanHand {
+    position: absolute;
+    width: 722px;
+    height: 1643px;
+    right: 0;
+    bottom: -0 transform: rotate(-20deg);
+    bottom: 0;
+    scale: 0.5;
+    transform: scale(-1, 1) rotate(50deg);
+}
+
+.d-none {
+  display: none;
+}
+.drawclass {
+  color: rgb(255, 255, 255);
+  font-family: Seymour One;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 121px;
+  letter-spacing: -10%;
+  text-align: center;
+}
+.gamebuttons {
+  display: flex;
+}
+
+.drawbuttons {
+  border: 2px solid rgb(0, 0, 0);
+  /* 1 */
+  box-shadow: 4px 4px 0px 0px rgb(0, 0, 0),
+    inset 4px -7px 0px 0px rgb(194, 194, 194);
+  background: rgb(255, 255, 255);
+  /* Rectangle 16 */
+
+  width: 204px;
+  height: 63px;
+  left: 0;
+  top: 0;
+}
